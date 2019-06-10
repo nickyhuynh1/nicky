@@ -1,0 +1,28 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    border: 10px solid red;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+h1#name, nav {
+        text-align: center;
+}
+h2 {
+    text-decoration: underline;
+}
+section {
+    background-color: #777;
+}
+a {
+    color: black;
+}
+a.hover {
+    color: white;
+}
+
