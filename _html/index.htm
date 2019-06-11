@@ -3,24 +3,30 @@
     <head>
         <meta charset="utf-8">
         <title>Nicky Huynh</title>
-        <link rel="stylesheet" href="../_css/style.css">
+        <link rel="stylesheet" type="text/css" href="../_css/style.css">
     </head>
     <body>
-        <header role="banner">
+        <header id="banner">
+            <div class="heading">
             <h1 id="name">Nicky Huynh</h1>
-            <nav role="navigation">
-                <p><a href="#education" title="education section">eductaion</a> / 
-                    engineering expereince / 
-                    collegiate extracuricular activities / 
-                    volunteer activities / 
-                    technical skills/ 
-                    contact  </p>
+            </div>
+            <div class="heading">
+            <nav id="navigation" class="heading">
+                <ul>
+                    <li><a href="#education" title="education section">eductaion</a></li>
+                    <li><a href="#engineering" title="engineering section">engineering expereince</a></li>
+                    <li><a href="#extracurricular" title="extracurricular section">collegiate extracuricular activities</a></li>
+                    <li><a href="#volunteer" title="volunteer section">volunteer activities</a></li>
+                    <li><a href="#skill" title="skill section">technical skills</a></li>
+                    <li><a href="#contact" title="contact section">contact</a></li>
+                </ul>
             </nav>
+            </div>
         </header>
 
         <main role="main">
             <article>
-                <section id="eductaion">
+                <section id="education">
                     <h2>Education</h2>
                     <dl>
                         <dt>Computer Science, BS</dt>
@@ -30,23 +36,59 @@
                         <dd>GPA 4.36, Fairfax High School, Fairfax, VA</dd>
                     </dl>
                 </section>
+                <hr/>
                 <section id="engineering">
                     <h2>Engineering Experience</h2>
+                    <dl>
+                        <dt>Introduction to Software Design</dt>
+                        <dd>Teaches the fundemental of programming ultilizing Java</dd>
+                        <dt>Software Design &amp; Data Structures</dt>
+                        <dd>Exploration of software design concepts and implementation techniques using Java</dd>
+                    </dl>
                 </section>
-                <section id="extracuricular">
+                <hr/>
+                <section id="extracurricular">
                     <h2>Extracuricular Activities</h2>
+                    <dt>Clark Scholars</dt>
+                    <dd>Academic and diversity based scholarship requiring activities such as networking, academic, and professional development</dd>
+                    <dt>Society of Asian Scientists & Engineers</dt>
+                    <dd>Organization that raises the awareness and perseverance of Asian American in scinece and engineering related careers</dd>
                 </section>
+                <hr/>
                 <section id="volunteer">
                     <h2>Volunteer Activities</h2>
+                    <dt>Galipatia Learning Living Community</dt>
+                    <dd>Engineering community providing support and professional development towards a career in engineering</dd>
+                    <dt>The Big Event</dt>
+                    <dd>Campus-wide event aimed to help Blacksburg's community through various volunteering activities</dd>
                 </section>
+                <hr/>
                 <section id="skill">
                     <h2>Technical Skills</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Vim</li>
+                        <li>Git</li>
+                        <li>SolidWorks</li>
+                    </ul>
                 </section>
+                <hr/>
             </article>
         </main>
-
-        <footer>
-
+        <footer id="contact">
+            <table>
+                    <tr>
+                        <th>nhuynh18@vt.edu</th>
+                        <th>github</th>
+                        <th>linkdln</th>
+                    </tr>
+                    <tr>
+                        <th>created by Nicky Huynh</th>
+                    </tr>
+            </table>
         </footer>
     </body>
 </html>
