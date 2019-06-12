@@ -1,130 +1,148 @@
 /*
-* {
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+*{
+    box-sizing: border-box;
 }
-.heading{
-    display: inline-block; 
-    margin: 0em;
-    position:fixed;
-    background-color: aqua;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background-color: #f4f4f4;
+    color: #555;
+    line-height: 1.6em;
 }
-nav.heading{
-    padding-left: 15em;
-    text-align: center;
-}
-nav li { 
-    display: inline-block; 
-}
-main {
-    
-}
-*/
-/*
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #777;
-}
-.container{
-    width: 80%;
-    margin: auto;
-
-}
-.name, #navigation{
-    text-align: center;
-    margin: auto;
-}
-#navigation {
-
-}
-.name {
-    font-size: 3em;
-    font-family: cursive, sans-serif, Georgia, 'Times New Roman', Times, serif;
-    padding-bottom:0.333em;
-}
-.wrapper {
-    padding-top:1em;
-    position: fixed;
-    width:100%;
-    color: black;
-}
-.link {
-    display: inline-block;
-    border: 1px red solid;
-    padding: 1em;
-}
-dt{
-    line-height:250%;
-}
-dd{
-    padding-left: 2em;
-}
-section{
-    padding-top:20em;
-    padding-bottom:10em; 
-}
-table, th, td {
-    border: 1px solid black;
-  }
-footer table { 
-    width:100%;
-}
-.contactInfo td {
-    width:33%;
-    padding: 1em;
-}
-td.center, footer p {
-    text-align:center;
-}
-td.left {
-    text-align:left;
-}
-td.right {
-    text-align:right;
-}
-footer p {
-
-}
-*/
-
-nav ul {
+.navigation ul {
     list-style: none;
-    border: 1px blue dashed;
+    float: left;
+    position:fixed;
+    padding: 0;
 }
-nav li {
+.navigation li {
     margin: 1em 0 1em 0;
-    border: 1px cyan solid;
+    border:none;
+    width:110%;
+    background-image: linear-gradient(to left, blue, cyan);
     text-align: right;
     padding: 1em;
-}
-.leftAlign {
-    position:fixed;
+
 }
 .big {
     width: 100%;
     height:100%;
-    border: 5px green solid;
+}
+.info h1 {
+    top:50%;
+    left:.8em;
+    font-size: 7em;
+    position: absolute;
 }
 .container {
+    float:right;
+    overflow: hidden;
     width:70%;
-    height: 100%;
     margin:1em 2em 1em 20em;
     border: 3px black dashed;
 }
-section,header{
-    border:2px red solid;
-    margin: 1em 0 1em 0; 
-    padding-top:30%;
-    padding-bottom:40%;
+.info{
+    position: relative;
+    box-sizing: border-box;
+    border:1em red solid;
+    margin-bottom:3em; 
+    height:100vh;
     text-align: center;
 }
-section dl{
+.info dl, .info ul{
     border:2px black solid;
     text-align: left;
-    width:90%;
-    margin:auto;
+    width:80%;  
+    margin: 0 auto;
+    line-height: 2em;
+    font-size: 1.8em;
+}
+.info h2 {
+    font-size: 3em;
+}
+.info dl, .info ul, .info h2 {
+    position: relative;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color:black;
+}
+*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:1.6em;
+    background-color: lightgrey;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: magenta;
+}
+.navigation ul {
+    float:left;
+    list-style: none;
+    text-align: right;
+    position:fixed;
+    margin-top:1em;
+    width:20%;
+    box-sizing: border-box;
     line-height: 2em;
 }
-
+.container {
+    float:right;
+    margin-top: 1em;
+    width:75%;
+    box-sizing: border-box;
+}
+.navigation li {
+    background-image: linear-gradient(to left, black, lightgrey);
+    margin-bottom: 1em;
+    padding-right: 1em;
+}
+.infoBox {
+    background-color: grey;
+    margin-bottom: 2em;
+    margin-right:2em;
+    color: #f4f4f4;
+    border: 1em white solid;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+.infoBox h1 {
+    position: relative;
+    text-align: center;
+    font-size: 7em;
+    top:60%;
+    font-family: cursive;
+    line-height: 1em;
+}
+.subHead{
+    position: relative;
+    width:99%;
+    text-align: center;
+    margin-top:100px;
+    line-height: 1em;
+    font-size: 3em;
+}
+.info {
+    position: absolute;
+    left:25%;
+    width:50%;
+    border:1px black solid;
+    line-height: 2em;
+}
+.info dt {
+    font-weight: bold;
+}
