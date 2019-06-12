@@ -1,35 +1,4 @@
-/*html{
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: white;
-    border: 10px solid red;
-}
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-
-}
-body {
-    width: 80%;
-    margin: 0 auto;
-}
-h1#name, nav {
-        text-align: center;
-}
-h2 {
-    text-decoration: underline;
-}
-section {
-    background-color: #777;
-}
-nav {
-    color: red;
-}*/
+/*
 * {
     margin: 0;
     padding: 0;
@@ -51,5 +20,69 @@ nav li {
 main {
     
 }
+*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #777;
+}
+.container{
+    width: 80%;
+    margin: auto;
 
+}
+.name, #navigation{
+    text-align: center;
+    margin: auto;
+}
+#navigation {
 
+}
+.name {
+    font-size: 3em;
+    font-family: cursive, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    padding-bottom:0.333em;
+}
+.wrapper {
+    padding-top:1em;
+    position: fixed;
+    width:100%;
+    color: black;
+}
+.link {
+    display: inline-block;
+    border: 1px red solid;
+    padding: 1em;
+}
+dt{
+    line-height:250%;
+}
+dd{
+    padding-left: 2em;
+}
+section{
+    padding-top:20em;
+    padding-bottom:10em; 
+}
+table, th, td {
+    border: 1px solid black;
+  }
+footer table { 
+    width:100%;
+}
+.contactInfo td {
+    width:33%;
+    padding: 1em;
+}
+td.center, footer p {
+    text-align:center;
+}
+td.left {
+    text-align:left;
+}
+td.right {
+    text-align:right;
+}
+footer p {
+
+}

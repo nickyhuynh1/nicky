@@ -6,26 +6,21 @@
         <link rel="stylesheet" type="text/css" href="../_css/style.css">
     </head>
     <body>
-        <header id="banner">
-            <div class="heading">
-            <h1 id="name">Nicky Huynh</h1>
-            </div>
-            <div class="heading">
-            <nav id="navigation" class="heading">
+        <div id="nav" class="wrapper">
+            <h1 class="name" >Nicky Huynh</h1>
+            
+            <nav id="navigation">
                 <ul>
-                    <li><a href="#education" title="education section">eductaion</a></li>
-                    <li><a href="#engineering" title="engineering section">engineering expereince</a></li>
-                    <li><a href="#extracurricular" title="extracurricular section">collegiate extracuricular activities</a></li>
-                    <li><a href="#volunteer" title="volunteer section">volunteer activities</a></li>
-                    <li><a href="#skill" title="skill section">technical skills</a></li>
-                    <li><a href="#contact" title="contact section">contact</a></li>
+                    <li class="link"><a href="#education" title="education section">eductaion</a></li>
+                    <li class="link"><a href="#engineering" title="engineering section">engineering expereince</a></li>
+                    <li class="link"><a href="#extracurricular" title="extracurricular section">collegiate extracuricular activities</a></li>
+                    <li class="link"><a href="#volunteer" title="volunteer section">volunteer activities</a></li>
+                    <li class="link"><a href="#skill" title="skill section">technical skills</a></li>
+                    <li class="link"><a href="#contact" title="contact section">contact</a></li>
                 </ul>
             </nav>
-            </div>
-        </header>
-
-        <main role="main">
-            <article>
+        </div>
+            <div class="container">
                 <section id="education">
                     <h2>Education</h2>
                     <dl>
@@ -49,18 +44,22 @@
                 <hr/>
                 <section id="extracurricular">
                     <h2>Extracuricular Activities</h2>
-                    <dt>Clark Scholars</dt>
-                    <dd>Academic and diversity based scholarship requiring activities such as networking, academic, and professional development</dd>
-                    <dt>Society of Asian Scientists & Engineers</dt>
-                    <dd>Organization that raises the awareness and perseverance of Asian American in scinece and engineering related careers</dd>
+                    <dl>
+                        <dt>Clark Scholars</dt>
+                        <dd>Academic and diversity based scholarship requiring activities such as networking, academic, and professional development</dd>
+                        <dt>Society of Asian Scientists & Engineers</dt>
+                        <dd>Organization that raises the awareness and perseverance of Asian American in scinece and engineering related careers</dd>
+                    </dl>
                 </section>
                 <hr/>
                 <section id="volunteer">
                     <h2>Volunteer Activities</h2>
-                    <dt>Galipatia Learning Living Community</dt>
-                    <dd>Engineering community providing support and professional development towards a career in engineering</dd>
-                    <dt>The Big Event</dt>
-                    <dd>Campus-wide event aimed to help Blacksburg's community through various volunteering activities</dd>
+                    <dl>
+                        <dt>Galipatia Learning Living Community</dt>
+                        <dd>Engineering community providing support and professional development towards a career in engineering</dd>
+                        <dt>The Big Event</dt>
+                        <dd>Campus-wide event aimed to help Blacksburg's community through various volunteering activities</dd>
+                    </dl>
                 </section>
                 <hr/>
                 <section id="skill">
@@ -76,19 +75,17 @@
                     </ul>
                 </section>
                 <hr/>
-            </article>
-        </main>
+            </div>
         <footer id="contact">
-            <table>
+            <table class="contactInfo">
                     <tr>
-                        <th>nhuynh18@vt.edu</th>
-                        <th>github</th>
-                        <th>linkdln</th>
-                    </tr>
-                    <tr>
-                        <th>created by Nicky Huynh</th>
+                        <td id="email" class="left">nhuynh18@vt.edu</th>
+                        <td id="github" class="center">github</th>
+                        <td id="linkdln" class="right">linkdln</th>
                     </tr>
             </table>
+            <p>Created by Nicky Huynh</p>
         </footer>
+
     </body>
 </html>
