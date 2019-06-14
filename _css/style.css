@@ -1,88 +1,14 @@
-/*
-*{
-    box-sizing: border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin:0;
-    background-color: #f4f4f4;
-    color: #555;
-    line-height: 1.6em;
-}
-.navigation ul {
-    list-style: none;
-    float: left;
-    position:fixed;
-    padding: 0;
-}
-.navigation li {
-    margin: 1em 0 1em 0;
-    border:none;
-    width:110%;
-    background-image: linear-gradient(to left, blue, cyan);
-    text-align: right;
-    padding: 1em;
-
-}
-.big {
-    width: 100%;
-    height:100%;
-}
-.info h1 {
-    top:50%;
-    left:.8em;
-    font-size: 7em;
-    position: absolute;
-}
-.container {
-    float:right;
-    overflow: hidden;
-    width:70%;
-    margin:1em 2em 1em 20em;
-    border: 3px black dashed;
-}
-.info{
-    position: relative;
-    box-sizing: border-box;
-    border:1em red solid;
-    margin-bottom:3em; 
-    height:100vh;
-    text-align: center;
-}
-.info dl, .info ul{
-    border:2px black solid;
-    text-align: left;
-    width:80%;  
-    margin: 0 auto;
-    line-height: 2em;
-    font-size: 1.8em;
-}
-.info h2 {
-    font-size: 3em;
-}
-.info dl, .info ul, .info h2 {
-    position: relative;
-    
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-a:hover {
-    color:black;
-}
-*/
 *{
     margin:0;
     padding:0;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     line-height:1.6em;
     background-color: lightgrey;
 }
-a {
+.navigation a {
     text-decoration: none;
     color: white;
 }
@@ -99,16 +25,18 @@ a:hover{
     box-sizing: border-box;
     line-height: 2em;
 }
+.navigation li {
+    background-image: linear-gradient(to left, black, lightgrey);
+    margin-bottom: 1em;
+    padding-right: 1em;
+    font-size: 1.3em;
+}
 .container {
     float:right;
     margin-top: 1em;
     width:75%;
     box-sizing: border-box;
-}
-.navigation li {
-    background-image: linear-gradient(to left, black, lightgrey);
-    margin-bottom: 1em;
-    padding-right: 1em;
+
 }
 .infoBox {
     background-color: grey;
@@ -129,20 +57,52 @@ a:hover{
     line-height: 1em;
 }
 .subHead{
-    position: relative;
     width:99%;
     text-align: center;
-    margin-top:100px;
+    margin-top:30vh;
     line-height: 1em;
     font-size: 3em;
 }
 .info {
-    position: absolute;
-    left:25%;
-    width:50%;
-    border:1px black solid;
+    width:70%;
+    margin:auto;
+    margin-top: 1em;
     line-height: 2em;
 }
 .info dt {
     font-weight: bold;
+}
+.infoBox ul {
+    list-style-type:square;
+    font-weight: bold;
+    width:1%;
+}
+#contact{
+    width: 95%;
+    margin: 1em auto;
+    font-size: 1em;
+}
+#contact td{
+    margin:auto;
+    width:33%;
+}
+#contact table {
+    width: 100%
+}
+#email{
+    color: darkblue;
+    text-decoration: underline;
+}
+hr {
+    margin: auto;
+    display:block;
+    width:100%;               
+    background-color:white;
+    height: 1px;
+}
+.center {
+    text-align: center;
+}
+.right  {
+    text-align: right;
 }
